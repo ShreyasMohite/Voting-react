@@ -1,0 +1,27 @@
+@mixin pannel{
+display: flex;
+  justify-content: space-evenly;
+  margin: 0.8rem 0rem;
+  span{
+    font-size: 1.9rem;
+  }
+  h2{
+      width: 8rem;
+  }
+  button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: black;
+    color: white;
+    &:hover{
+      box-shadow: 0px 0px 10px;
+      background-color: white;
+      color: black;
+    }
+  }
+}

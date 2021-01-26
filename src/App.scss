@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  
+}
+
+@import "mixin";
+
+.content-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.card{
+  width: 20rem;
+  height: 30rem;
+  box-shadow: 0px 0px 10px;
+  .title{
+    color:rgb(72, 50, 194);
+  }
+}
+
+.pannel1{
+  @include pannel;
+}
